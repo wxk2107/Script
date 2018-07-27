@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.0)
+project (cross_product)
+find_package (Eigen3 3.3 REQUIRED NO_MODULE)
+add_executable (cross_product cross_product.cpp)
+target_link_libraries (cross_product Eigen3::Eigen)

@@ -57,42 +57,42 @@ include CMakeFiles/collision_checker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/collision_checker.dir/flags.make
 
-CMakeFiles/collision_checker.dir/test.cpp.o: CMakeFiles/collision_checker.dir/flags.make
-CMakeFiles/collision_checker.dir/test.cpp.o: test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/damao/Documents/Script/collision_checking /CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/collision_checker.dir/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_checker.dir/test.cpp.o -c "/home/damao/Documents/Script/collision_checking /test.cpp"
+CMakeFiles/collision_checker.dir/src/test.cpp.o: CMakeFiles/collision_checker.dir/flags.make
+CMakeFiles/collision_checker.dir/src/test.cpp.o: src/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/damao/Documents/Script/collision_checking /CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/collision_checker.dir/src/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_checker.dir/src/test.cpp.o -c "/home/damao/Documents/Script/collision_checking /src/test.cpp"
 
-CMakeFiles/collision_checker.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collision_checker.dir/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/damao/Documents/Script/collision_checking /test.cpp" > CMakeFiles/collision_checker.dir/test.cpp.i
+CMakeFiles/collision_checker.dir/src/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collision_checker.dir/src/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/damao/Documents/Script/collision_checking /src/test.cpp" > CMakeFiles/collision_checker.dir/src/test.cpp.i
 
-CMakeFiles/collision_checker.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_checker.dir/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/damao/Documents/Script/collision_checking /test.cpp" -o CMakeFiles/collision_checker.dir/test.cpp.s
+CMakeFiles/collision_checker.dir/src/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_checker.dir/src/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/damao/Documents/Script/collision_checking /src/test.cpp" -o CMakeFiles/collision_checker.dir/src/test.cpp.s
 
-CMakeFiles/collision_checker.dir/collision_checking.cpp.o: CMakeFiles/collision_checker.dir/flags.make
-CMakeFiles/collision_checker.dir/collision_checking.cpp.o: collision_checking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/damao/Documents/Script/collision_checking /CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/collision_checker.dir/collision_checking.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_checker.dir/collision_checking.cpp.o -c "/home/damao/Documents/Script/collision_checking /collision_checking.cpp"
+CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o: CMakeFiles/collision_checker.dir/flags.make
+CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o: src/collision_checking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/damao/Documents/Script/collision_checking /CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o -c "/home/damao/Documents/Script/collision_checking /src/collision_checking.cpp"
 
-CMakeFiles/collision_checker.dir/collision_checking.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collision_checker.dir/collision_checking.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/damao/Documents/Script/collision_checking /collision_checking.cpp" > CMakeFiles/collision_checker.dir/collision_checking.cpp.i
+CMakeFiles/collision_checker.dir/src/collision_checking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collision_checker.dir/src/collision_checking.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/damao/Documents/Script/collision_checking /src/collision_checking.cpp" > CMakeFiles/collision_checker.dir/src/collision_checking.cpp.i
 
-CMakeFiles/collision_checker.dir/collision_checking.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_checker.dir/collision_checking.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/damao/Documents/Script/collision_checking /collision_checking.cpp" -o CMakeFiles/collision_checker.dir/collision_checking.cpp.s
+CMakeFiles/collision_checker.dir/src/collision_checking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_checker.dir/src/collision_checking.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/damao/Documents/Script/collision_checking /src/collision_checking.cpp" -o CMakeFiles/collision_checker.dir/src/collision_checking.cpp.s
 
 # Object files for target collision_checker
 collision_checker_OBJECTS = \
-"CMakeFiles/collision_checker.dir/test.cpp.o" \
-"CMakeFiles/collision_checker.dir/collision_checking.cpp.o"
+"CMakeFiles/collision_checker.dir/src/test.cpp.o" \
+"CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o"
 
 # External object files for target collision_checker
 collision_checker_EXTERNAL_OBJECTS =
 
-collision_checker: CMakeFiles/collision_checker.dir/test.cpp.o
-collision_checker: CMakeFiles/collision_checker.dir/collision_checking.cpp.o
+collision_checker: CMakeFiles/collision_checker.dir/src/test.cpp.o
+collision_checker: CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o
 collision_checker: CMakeFiles/collision_checker.dir/build.make
 collision_checker: /usr/lib/x86_64-linux-gnu/libboost_system.so
 collision_checker: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

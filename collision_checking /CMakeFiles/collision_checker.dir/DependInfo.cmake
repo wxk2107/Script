@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/damao/Documents/Script/collision_checking /collision_checking.cpp" "/home/damao/Documents/Script/collision_checking /CMakeFiles/collision_checker.dir/collision_checking.cpp.o"
-  "/home/damao/Documents/Script/collision_checking /test.cpp" "/home/damao/Documents/Script/collision_checking /CMakeFiles/collision_checker.dir/test.cpp.o"
+  "/home/damao/Documents/Script/collision_checking /src/collision_checking.cpp" "/home/damao/Documents/Script/collision_checking /CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o"
+  "/home/damao/Documents/Script/collision_checking /src/test.cpp" "/home/damao/Documents/Script/collision_checking /CMakeFiles/collision_checker.dir/src/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -12,5 +12,5 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (collision_checker test.cpp collision_checking.cpp)
+add_executable (collision_checker src/test.cpp src/collision_checking.cpp)
 target_link_libraries (collision_checker ${PCL_LIBRARIES})

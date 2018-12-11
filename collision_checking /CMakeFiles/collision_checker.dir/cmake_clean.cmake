@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/collision_checker.dir/test.cpp.o"
-  "CMakeFiles/collision_checker.dir/collision_checking.cpp.o"
+  "CMakeFiles/collision_checker.dir/src/test.cpp.o"
+  "CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o"
   "collision_checker.pdb"
   "collision_checker"
 )

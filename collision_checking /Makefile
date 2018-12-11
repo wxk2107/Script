@@ -123,59 +123,59 @@ collision_checker/fast:
 	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/build
 .PHONY : collision_checker/fast
 
-collision_checking.o: collision_checking.cpp.o
+src/collision_checking.o: src/collision_checking.cpp.o
 
-.PHONY : collision_checking.o
-
-# target to build an object file
-collision_checking.cpp.o:
-	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/collision_checking.cpp.o
-.PHONY : collision_checking.cpp.o
-
-collision_checking.i: collision_checking.cpp.i
-
-.PHONY : collision_checking.i
-
-# target to preprocess a source file
-collision_checking.cpp.i:
-	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/collision_checking.cpp.i
-.PHONY : collision_checking.cpp.i
-
-collision_checking.s: collision_checking.cpp.s
-
-.PHONY : collision_checking.s
-
-# target to generate assembly for a file
-collision_checking.cpp.s:
-	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/collision_checking.cpp.s
-.PHONY : collision_checking.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
+.PHONY : src/collision_checking.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/test.cpp.o
-.PHONY : test.cpp.o
+src/collision_checking.cpp.o:
+	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/src/collision_checking.cpp.o
+.PHONY : src/collision_checking.cpp.o
 
-test.i: test.cpp.i
+src/collision_checking.i: src/collision_checking.cpp.i
 
-.PHONY : test.i
+.PHONY : src/collision_checking.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/test.cpp.i
-.PHONY : test.cpp.i
+src/collision_checking.cpp.i:
+	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/src/collision_checking.cpp.i
+.PHONY : src/collision_checking.cpp.i
 
-test.s: test.cpp.s
+src/collision_checking.s: src/collision_checking.cpp.s
 
-.PHONY : test.s
+.PHONY : src/collision_checking.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/test.cpp.s
-.PHONY : test.cpp.s
+src/collision_checking.cpp.s:
+	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/src/collision_checking.cpp.s
+.PHONY : src/collision_checking.cpp.s
+
+src/test.o: src/test.cpp.o
+
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) -f CMakeFiles/collision_checker.dir/build.make CMakeFiles/collision_checker.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... collision_checker"
-	@echo "... collision_checking.o"
-	@echo "... collision_checking.i"
-	@echo "... collision_checking.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... src/collision_checking.o"
+	@echo "... src/collision_checking.i"
+	@echo "... src/collision_checking.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

@@ -6,49 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/damao/Documents/Script/collision_checking /collision_checking.hpp
-pcl_conversions/pcl_conversions.h
--
-pcl/common/transforms.h
--
-pcl/features/normal_3d.h
--
-pcl/filters/crop_box.h
--
-pcl/filters/voxel_grid.h
--
-tf/transform_listener.h
--
-pcl_ros/transforms.h
--
-pcl_ros/point_cloud.h
--
-pcl/point_cloud.h
--
-pcl/point_types.h
--
-tf_conversions/tf_eigen.h
--
-pcl/io/pcd_io.h
--
-geometry_msgs/Point.h
--
-geometry_msgs/Vector3.h
--
-tf/transform_datatypes.h
--
-stdio.h
--
-math.h
--
-vector
--
-string
--
-
-/home/damao/Documents/Script/collision_checking /test.cpp
+/home/damao/Documents/Script/collision_checking /src/collision_checking.cpp
 collision_checking.hpp
-/home/damao/Documents/Script/collision_checking /collision_checking.hpp
+/home/damao/Documents/Script/collision_checking /src/collision_checking.hpp
+
+/home/damao/Documents/Script/collision_checking /src/test.cpp
+collision_checking.hpp
+/home/damao/Documents/Script/collision_checking /src/collision_checking.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core
@@ -2048,5 +2012,45 @@ pcl/common/concatenate.h
 pcl/common/copy_point.h
 -
 pcl/search/impl/search.hpp
+-
+
+include/collision_checking.hpp
+pcl_conversions/pcl_conversions.h
+-
+pcl/common/transforms.h
+-
+pcl/features/normal_3d.h
+-
+pcl/filters/crop_box.h
+-
+pcl/filters/voxel_grid.h
+-
+tf/transform_listener.h
+-
+pcl_ros/transforms.h
+-
+pcl_ros/point_cloud.h
+-
+pcl/point_cloud.h
+-
+pcl/point_types.h
+-
+tf_conversions/tf_eigen.h
+-
+pcl/io/pcd_io.h
+-
+geometry_msgs/Point.h
+-
+geometry_msgs/Vector3.h
+-
+tf/transform_datatypes.h
+-
+stdio.h
+-
+math.h
+-
+vector
+-
+string
 -
 

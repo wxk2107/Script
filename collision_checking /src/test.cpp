@@ -1,6 +1,13 @@
 #include "collision_checking.hpp"
 
 int main(int argc, char *argv[]) {
+
+  /*
+  transformMsgToEigen (const geometry_msgs::Transform &m, Eigen::Affine3d &e)
+  http://docs.ros.org/melodic/api/eigen_conversions/html/namespacetf.html#a4323ed345fb25c89de3a297fdc7401a4
+  */
+
+
   std::string gripper_model_path = "/home/damao/Documents/ROS/Goal-directed-Manipulation/src/grasp_pose_checker/data/gripper/gripper/gripper_local.txt";
   pcl::PointCloud<pcl::PointXYZ>::Ptr gripper_local_cloud(new pcl::PointCloud<pcl::PointXYZ>);
 

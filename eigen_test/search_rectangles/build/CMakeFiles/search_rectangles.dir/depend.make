@@ -238,6 +238,7 @@ CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl
 CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/copy_point.h
 CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/distances.h
 CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/eigen.h
+CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/geometry.h
 CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/impl/accumulators.hpp
 CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/impl/angles.hpp
 CMakeFiles/search_rectangles.dir/search_rectangles.cpp.o: /usr/local/include/pcl-1.8/pcl/common/impl/centroid.hpp

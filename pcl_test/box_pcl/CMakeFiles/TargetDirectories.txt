@@ -1,1 +1,1 @@
-/home/damao/Downloads/test_pcl/CMakeFiles/box_pcd.dir
+/home/damao/Documents/Script/pcl_test/box_pcl/CMakeFiles/box_pcd.dir

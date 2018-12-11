@@ -1,6 +1,5 @@
-#include <iostream>
 #include <Eigen/Dense>
-#include <iostream>
+
 #include <pcl/ModelCoefficients.h>
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
@@ -10,6 +9,7 @@
 #include <pcl/filters/voxel_grid.h>
 #include <pcl/filters/extract_indices.h>
 #include <pcl/common/centroid.h>
+#include <pcl/common/geometry.h>
 // #include <pcl/sample_consensus/sac_model_parallel_plane.h>
 #include <pcl/sample_consensus/sac_model_normal_plane.h>
 #include <pcl/common/impl/angles.hpp>
@@ -17,7 +17,9 @@
 #include <pcl/filters/passthrough.h>
 #include <pcl/features/normal_3d.h>
 
+#include <iostream>
 #include <string>
+#include <algorithm>
 
 
 class SearchRectangles {
@@ -58,6 +60,9 @@ public:
   }
 
   void LoadPointCloud(std::string name);
+  void setPointCloud(pcl::PointCloud<pcl::PointXYZ>::Ptr box_point_cloud) {
+    box_point_cloud_ = box_point_cloud;
+  }
 
   void setThreshold(float threshold) {
     threshold_ = threshold;
@@ -66,19 +71,46 @@ public:
   void setThresholdWeight(float threshold_weight) {
     threshold_weight_ = threshold_weight;
   }
-  
+
+  void setStartPoint(float x, float y, float z) {
+    start_.x = x;
+    start_.y = y;
+    start_.z = z;
+  }
+
+  std::vector<pcl::PointXYZ> getCandidates() {
+    return candidates_;
+  }
+
+  void test();
+
+  // static pcl::PointXYZ start_; // middle of back bottom edge
+  bool operator() (const pcl::PointXYZ& p1, const pcl::PointXYZ& p2);
+
+
 private:
   void filteredPointCloud();
 
   void initializeMatrix();
+  void pointsToMatrix(float x, float y, float z, int & x_temp, int & y_temp, double & z_temp);
 
   void segmentPlanes();
+
+  // static bool sortPointCloud(const pcl::PointXYZ& p1, const pcl::PointXYZ& p2);
+
+  void checkCollision();
+
+  bool checkCollisionForOnePoint(pcl::PointXYZ point);
+  int checkCollisionForOnePointOfOnePoint(int x_temp, int y_temp, double z_temp);
+
+  std::vector<pcl::PointXYZ> candidates_;
 
   Eigen::MatrixXd m_box;
   float resolution_;
   float length_, width_, height_;
   float rect_length_, rect_width_;
   int m_l, m_w, m_h;
+  pcl::PointXYZ start_;
 
   pcl::PointCloud<pcl::PointXYZ>::Ptr box_point_cloud_;
   pcl::PointCloud<pcl::PointXYZ>::Ptr box_point_cloud_filtered_;
@@ -92,3 +124,6 @@ private:
 
   std::string save_file_path_;
 };
+
+// pcl::PointXYZ SearchRectangles::start_ = pcl::PointXYZ(0.0f,0.0f,0.0f);
+// pcl::PointXYZ SearchRectangles::start_(0.0f,0.0f,0.0f);

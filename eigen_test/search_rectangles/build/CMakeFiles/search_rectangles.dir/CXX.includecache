@@ -11,11 +11,7 @@ search_rectangles.hpp
 /home/damao/Documents/Script/eigen_test/search_rectangles/search_rectangles.hpp
 
 /home/damao/Documents/Script/eigen_test/search_rectangles/search_rectangles.hpp
-iostream
--
 Eigen/Dense
--
-iostream
 -
 pcl/ModelCoefficients.h
 -
@@ -35,6 +31,8 @@ pcl/filters/extract_indices.h
 -
 pcl/common/centroid.h
 -
+pcl/common/geometry.h
+-
 pcl/sample_consensus/sac_model_normal_plane.h
 -
 pcl/common/impl/angles.hpp
@@ -43,7 +41,11 @@ pcl/filters/passthrough.h
 -
 pcl/features/normal_3d.h
 -
+iostream
+-
 string
+-
+algorithm
 -
 
 /usr/include/eigen3/Eigen/Cholesky
@@ -1304,6 +1306,12 @@ Eigen/Dense
 Eigen/Eigenvalues
 -
 pcl/common/impl/eigen.hpp
+-
+
+/usr/local/include/pcl-1.8/pcl/common/geometry.h
+Eigen/Core
+-
+pcl/console/print.h
 -
 
 /usr/local/include/pcl-1.8/pcl/common/impl/accumulators.hpp
